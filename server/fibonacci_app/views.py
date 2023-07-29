@@ -8,6 +8,8 @@ from .models import Fibonacci
 from .serializers import FibonacciSerializer
 from .helpers import fibonacci
 
+# This code was written with the assistance of OpenAI's GPT.
+
 
 class FibonacciView(APIView):
     def post(self, request):
